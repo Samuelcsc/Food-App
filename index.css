@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Mulish;
+}
+
+body {
+  background: url(https://res.cloudinary.com/ddhuwol3r/image/upload/v1661047323/restaurant_1_nyw38b.png);
+  background-position: contain;
+}
+
+.home > div > p {
+  font-size: 15px;
+  line-height: 19px;
+  margin-bottom: 30px;
+  color: white;
+  text-align: center;
+  font-family: "Mulish";
+  font-style: normal;
+}
+
+main {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 40px;
+}
+
+.welcome > h2 {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 75px;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+  font-family: "Mulish";
+  font-style: normal;
+}
+
+span {
+  font-weight: 700;
+}
+
+.menu-but {
+  padding: 15px 40px;
+}
+
+.buttons {
+  margin: auto 160px;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background: white;
+  padding: 30px 0px 0 60px;
+}
+
+.left {
+  width: 90px;
+  height: 480px;
+  background-color: #0c0b0b;
+  border-radius: 24px;
+  padding-top: 30px;
+  box-shadow: 10px 1px 20px grey;
+}
+
+.sushi-heading {
+  font-size: 30px;
+  font-family: "Mulish";
+  margin-left: 60px;
+  padding-bottom: 1px;
+  border-bottom: 3px solid #f1d5bb;
+  width: 184.5px;
+}
+
+.cart-heading {
+  font-size: 30px;
+  font-family: "Mulish";
+  margin-left: 60px;
+  padding-bottom: 1px;
+  border-bottom: 3px solid #f1d5bb;
+  width: 80.5px;
+}
+
+.right {
+  width: 100%;
+}
+
+.food-img {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 15px;
+  padding: 30px 0 0 57px;
+}
+
+.container {
+  margin-left: 60px;
+  margin-top: 20px;
+  height: 40%;
+}
+.menu-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.menu-button > button {
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  background-color: black;
+}
+
+footer {
+  margin: 50px 0 0 20px;
+  font-size: 14px;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 10px;
+}
+
+.icon {
+  display: grid;
+  width: 90px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.icon > img {
+  width: 55%;
+  padding-bottom: 25px;
+}
+
+.img > img {
+  width: 150px;
+  height: 150px;
+}
+
+.img {
+  width: 59.3%;
+}
+
+.rest {
+  background-color: #f1d5bb;
+}
+
+.rest {
+  padding: 20px 0px 0px 15px;
+}
+
+.cart {
+  padding: 20px 0 2px 14px;
+}
+
+.logo {
+  padding: 0px 0px 0px 20px;
+}
+
+.house {
+  padding: 0px 0px 0px 10px;
+}
+
+.path {
+  padding: 0px 0px 10px 10px;
+}
+
+.wallet {
+  padding: 0px 0px 10px 19px;
+}
+
+.house2 {
+  padding: 0px 0px 0px 11px;
+}
+
+.rest2 {
+  padding: 5px 0px 0px 11px;
+}
+
+.cart2 {
+  padding: 20px 0 0px 14px;
+  background-color: #f1d5bb;
+  margin-bottom: 40px;
+}
+
+.price {
+  margin: 20px 0 0 60px;
+  display: flex;
+
+  width: 900px;
+  height: 350px;
+  /*
+  grid-template-columns: 5fr 1fr;
+  grid-gap: 25px;
+  margin-right: 2.1em;*/
+}
+
+.food-price {
+  background-color: #f1d5bb;
+  display: flex;
+  margin-right: 70px;
+}
+
+.sub-total {
+  width: 250px;
+}
+
+.sub-total2 {
+  background-color: #f1d5bb;
+  padding: 15px 10px 10px 20px;
+  height: 47%;
+}
+
+.sub-flex {
+  display: flex;
+  width: 250px;
+}
+
+.promo-code {
+  border: 2px solid #f1d5bb;
+  height: 53%;
+  padding: 15px 10px 10px 20px;
+}
+
+.confirm-but {
+  padding: 10px 50px;
+  margin-top: 15px;
+}
+
+.apply-but {
+  padding: 10px 20px;
+  margin: 5px 0;
+}
+
+.sub-total2 > h2 {
+  padding-bottom: 15px;
+}
+
+input {
+  padding: 10px 10px;
+  width: 186px;
+  margin: 15px 0;
+}
+
+.food-img1 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 15px;
+  padding: 30px 0 0 57px;
+}
+
+.food-img1 {
+  background: url(https://res.cloudinary.com/ddhuwol3r/image/upload/v1661699370/Ellipse_5_yfexs0.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+  width: 60px;
+  height: 60px;
+  margin: 22px 0 0 18px;
+}
+
+.food-img2 {
+  background: url(https://res.cloudinary.com/ddhuwol3r/image/upload/v1661702309/Ellipse_6_ukb7du.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  margin: 22px 0 0 18px;
+}
+
+.food-img3 {
+  background: url(https://res.cloudinary.com/ddhuwol3r/image/upload/v1661702309/Ellipse_7_hmyjdo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  margin: 18px 0 0 18px;
+}
+
+.food-img4 {
+  background: url(https://res.cloudinary.com/ddhuwol3r/image/upload/v1661702309/Ellipse_8_t6hnt7.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+  width: 60px;
+  height: 60px;
+  margin: 19px 50px 0px 18px;
+}
+
+.food-names {
+  margin: 30px 50px 0 30px;
+}
+
+.food-names-input {
+  margin: 25px 50px 0 30px;
+}
+
+h4 {
+  margin-bottom: 8px;
+}
+
+.sub-flex > p {
+  margin-right: 20px;
+}
+
+.food-names-input > div > input {
+  width: 25px;
+  height: 1px;
+}
+
+.right-span {
+  position: absolute;
+  top: 132px;
+  margin-left: 10px;
+}
+
+.right-span2 {
+  position: absolute;
+  top: 207px;
+  margin-left: 10px;
+}
+
+.right-span3 {
+  position: absolute;
+  top: 283px;
+  margin-left: 10px;
+}
+
+.right-span4 {
+  position: absolute;
+  top: 360px;
+  margin-left: 10px;
+}
+.left-span {
+  margin-right: 10px;
+}
+
+.left-span,
+.right-span,
+.right-span2,
+.right-span3,
+.right-span4,
+.cancel-img {
+  cursor: pointer;
+}
+
+.cancel-img {
+  padding-bottom: 20px;
+  margin: 43px 20px 20px 20px;
+}
+
+.cancel-img > div > img {
+  width: 70%;
+}
+
+.cancel-img2 {
+  margin-bottom: 57px;
+}
+
+.food {
+  margin-bottom: 30px;
+}
+
+.input-box {
+  margin-bottom: 22px;
+}
+
+.footer2 {
+  margin: 126px 0 0 20px;
+  font-size: 14px;
+}

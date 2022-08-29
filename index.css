@@ -232,11 +232,15 @@ figcaption {
 .confirm-but {
   padding: 10px 50px;
   margin-top: 15px;
+  background-color: black;
+  color: white;
 }
 
 .apply-but {
   padding: 10px 20px;
   margin: 5px 0;
+  background-color: black;
+  color: white;
 }
 
 .sub-total2 > h2 {
